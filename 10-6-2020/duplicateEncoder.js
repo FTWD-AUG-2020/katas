@@ -13,7 +13,6 @@
 
 //Solution
 function duplicateEncode(word) {
-  // ...
   word = word.toLowerCase();
   return word.replace(/./gi, function (v) {
     if (word.indexOf(v) === word.lastIndexOf(v)) {
